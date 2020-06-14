@@ -1,1 +1,54 @@
-Hello World!
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hmkwak vanila js</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+
+  <body>
+    <!-- weather -->
+    <div class="container-weather">
+      <form>
+      <h1>weather</h1>
+      <h2 class="js-weather"></h2>
+      </form>
+    </div>
+
+    <div class="content-div">
+      <!-- clock -->
+      <div class="container-clock">
+        <div class="js-clock">
+          <div class="clock-div">00:00:00</div>
+        </div>
+      </div>
+      
+      <!-- greeting -->
+      <div class="container-greeting">
+        <form class="js-form form">
+          <input type="text" placeholder="what is your name?"/>
+        </form>
+        <div class="js-greeting greetings greet-font"></div>
+      </div>
+
+      <!-- todo -->
+      <div class="container-todo">
+        <form class="js-toDoForm">
+          <h1>To do List</h1>
+          <input type="text" placeholder="Add task" />
+        </form>
+        <h1>Pending</h1>
+        <ul class="js-toDoList"></ul>
+        <h1>Finishied</h1>
+        <ul class="js-finishList"></ul>
+      </div>
+    </div>
+    
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    </body>
+</html>
